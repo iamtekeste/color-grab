@@ -1,0 +1,43 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": ["react", "jsx-a11y", "import"],
+  "rules": {
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0,
+    "import/no-extensions": 0,
+    "import/prefer-default-export": 0,
+    "import/extensions": 0,
+    "react/jsx-no-bind": 0,
+    "react/forbid-prop-types": 0,
+    "react/sort-comp": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/label-has-for": 0,
+    "class-methods-use-this": 0,
+    "no-param-reassign": ["error", { "props": false }],
+    "no-prototype-builtins": 0,
+    "no-use-before-define": 0,
+    "react/no-typos": "off",
+    "react/react-in-jsx-scope": "off",
+    "prefer-destructuring": 0,
+    "react/default-props-match-prop-types": 0,
+    "react/jsx-filename-extension": 0,
+    "jsx-a11y/mouse-events-have-key-events": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "template-tag-spacing": 0,
+    "function-paren-newline": ["error", "consistent"],
+    "no-debugger": "off",
+    "comma-dangle": [
+      2,
+      {
+        // disallow trailing commas in object literals
+        "arrays": "ignore",
+        "objects": "ignore",
+        "imports": "ignore",
+        "exports": "ignore",
+        "functions": "never"
+      }
+    ]
+  }
+}
